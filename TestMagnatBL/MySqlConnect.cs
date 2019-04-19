@@ -11,11 +11,11 @@ namespace TestMagnatBL
         /// <summary>
         /// Данные для подключения к БД.     
         /// </summary>
-        private static string _serverName = @"test-magnat";
-        private static string _userName = "userAF6";
-        private static string _dbName = "magnat_nk";
+        private static string _serverName = "sql7.freemysqlhosting.net";
+        private static string _userName = "sql7288724";
+        private static string _dbName = "sql7288724";
         private static string _port = "3306";
-        private static string _password = "IK4RDfPxHWfATM46";
+        private static string _password = "78UkCrz557";
 
         /// <summary>
         /// Строка для подключения к БД.

@@ -43,7 +43,7 @@ namespace TestMagnatBL
                 return false;
             }
 
-            string query = "INSERT INTO  `magnat_nk`.`froze_base` ( " +
+            string query = "INSERT INTO `froze_base` ( " +
                "`time` , `date` , `city` ,`street` , `house_number` ,`apartment` , `phone_number` , `coment` ,`id_gager`" +
                 ",`create`)" +
             "VALUES(" + time + ", '" + date + "', '" + city + "', '" + street + "', " + houseNumber + ", " + apartment +

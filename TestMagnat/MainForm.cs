@@ -259,6 +259,7 @@ namespace TestMagnat
                 var newFroze = new TestMagnatBL.Froze();
                 newFroze.Date = _dateTimePickerList[index].Value;
                 newFroze.IdGager = _gager[index].ToString();
+                newFroze.Time = int.Parse(dataGrid.SelectedCells[0].Value.ToString());
 
                 var addFrozeForm = new AddFrozeForm();
                 addFrozeForm.CurrentFroze = newFroze;
